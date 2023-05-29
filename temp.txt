@@ -1,0 +1,14 @@
+I have a folder with subfolders (names by class id) that holds all images of the class
+I would like to prepare a Dataset object for siamese network training
+I want to use triple loss as the loss function and i want my dataset to include augmented images
+I want to split into train, validation and test sets
+
+folder structure:
+root
+>> dataset
+   >> class (folder that hold all classes)
+   >> siamese (output/destination folder where all labels and image file will be held)
+>> script.py
+
+Use this function structure, make sure to make directory if it doesnt exist
+def prepareDataset(input_filepath='dataset/class', output_filepath = 'dataset/siamese'):

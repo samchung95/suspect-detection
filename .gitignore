@@ -2,7 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+runs/
+yolov8x.pt
+dataset/
 # C extensions
 *.so
 
